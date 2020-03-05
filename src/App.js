@@ -1,4 +1,5 @@
 import React from 'react';
+import { StoriesContainer } from './containers/StoriesContainer';
 
 
-export const App = () => <h1>TEXT</h1>;
+export const App = () => <StoriesContainer></StoriesContainer>;
