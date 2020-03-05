@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Projects has a [GitHub Page] (https://onhaxyt.github.io/Hackernews/).
 
 ## Available Scripts
 
