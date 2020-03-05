@@ -1,4 +1,4 @@
-The Projects has a [GitHub Page] (https://onhaxyt.github.io/Hackernews/).
+The Projects has a [GitHub Page](https://onhaxyt.github.io/Hackernews/).
 
 ## Available Scripts
 
