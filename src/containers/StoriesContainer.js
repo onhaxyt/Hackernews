@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {getStoryIds, getStory} from '../services/hnApi';
+import {getStoryIds} from '../services/hnApi';
 import { Story } from '../components/story';
 import { GlobalStyle, StoryContainerWrapper } from "../styles/StoryContainerStyles";
 import {useInfiniteScroll} from '../hooks/useInfiniteScroll';

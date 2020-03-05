@@ -6,7 +6,7 @@ export const newStoriesUrl = `${baseUrl}newstories.json`;
 export const storyUrl = `${baseUrl}item/`
 
 export const getStory = async (storyId) => {
-const result = await axios.get(`${storyUrl + storyId}.json`).then(({data}) => data)
+const result = await axios.get(`${storyUrl + storyId}.json`).then(({data}) => data && selectFields(data));
 
 return result;
 

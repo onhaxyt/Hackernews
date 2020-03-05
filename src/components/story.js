@@ -11,7 +11,8 @@ export const Story = ({storyId}) => {
 
     useEffect(() => {
         getStory(storyId).then(data => data && data.url && setStory(data));
-    }, []);
+    // eslint-disable-next-line
+    },[]);
     return story && story.url ? (
 
         

@@ -26,12 +26,15 @@ export const useInfiniteScroll = () => {
         }
 
         setLoading(false);
+    // eslint-disable-next-line
     }, [loading]);
 
+    
     useEffect(() => {
 
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
+    // eslint-disable-next-line
     }, []);
 
    return{count};
