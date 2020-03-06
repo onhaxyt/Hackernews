@@ -1,7 +1,7 @@
 {
   "name": "hackernews2",
   "version": "0.1.0",
-  "homepage": "http://onhaxyt.github.io/hackernews",
+  "homepage": ".",
   "private": true,
   "main": "index.js",
   "dependencies": {

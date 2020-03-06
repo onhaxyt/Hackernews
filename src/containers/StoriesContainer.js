@@ -12,8 +12,7 @@ export const StoriesContainer = () => {
   
     useEffect(() => {
       getStoryIds().then(ids => setStoryIds(ids));
-    }, [
-    ]);
+    }, []);
 
    
   
